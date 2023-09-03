@@ -132,6 +132,50 @@ body{
 .benefits-block:not(:last-child){
     margin-right: 30px;
 }
+.benefits-block::before{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-color: var(--background-team-color);
+    background-image: url(./img/antenna1.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: center;
+}
+.benefits-block:nth-child(2)::before{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-color: var(--background-team-color);
+    background-image: url(./img/clock1.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: center;
+}
+.benefits-block:nth-child(3)::before{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-color: var(--background-team-color);
+    background-image: url(./img/diagram1.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: center;
+}
+.benefits-block:nth-child(4)::before{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-color: var(--background-team-color);
+    background-image: url(./img/astronaut1.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: center;
+}
 
 .benefits-name{
     color: var(--title-text-color);
