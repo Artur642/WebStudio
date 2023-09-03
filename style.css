@@ -122,7 +122,7 @@ body{
     display: flex;
     align-items: flex-start;
     margin-top: 94px;
-    margin-bottom: 94px;
+    margin-bottom: 200px;
 }
 .benefits-block{
    width: 270px;
@@ -233,6 +233,10 @@ body{
 
 .page-footer{
     background: var(--secondary-background-color);
+    height: 252px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
 }
 
 .address-text{
@@ -352,7 +356,7 @@ body{
 .footer-list{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .footer{
     padding-bottom: 50px;
