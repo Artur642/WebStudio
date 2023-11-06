@@ -10,11 +10,15 @@
     --logo-color: #000;
     --secondary-background-color: #2f3034;
 }
-
+.header-wrapper{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
 .contacst-list{
     padding-left: 344px;
     display: flex;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
@@ -92,6 +96,9 @@ body{
     line-height: 400px;
     letter-spacing: 2.64px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .post-button{
@@ -106,6 +113,9 @@ body{
     border: none;
     padding: 10px 32px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*benefits*/
@@ -181,6 +191,7 @@ body{
     color: var(--title-text-color);
     font-weight: 700;
     letter-spacing: 0.42px;
+    margin-top: 30px;
 }
 
 .benefits-text{
@@ -366,6 +377,16 @@ a{
 .clients-item{
     margin-left: 30px;
 }
+.clients{
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.clients-text{
+    text-align: center;
+    color: var(--title-text-color);
+    margin-bottom: 50px;
+    font-size: 36px;
+}
 .clients-link{
     width: 170px;
     height: 92px;
@@ -388,6 +409,7 @@ a{
 .social-list{
     margin-top: 16px;
     display: flex;
+    margin-left: 45px;
 }
 .social-list-link{
     width: 44px;
@@ -396,7 +418,6 @@ a{
     fill: #AFB1B8;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .social-list-icon{
     width: 20px;
