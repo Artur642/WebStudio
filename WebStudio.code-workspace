@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "WebStudio",
+			"path": "."
+		},
+		{
+			"name": "css",
+			"path": "../../../OneDrive/Документи/GitHub/WebStudio/css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
